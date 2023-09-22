@@ -1,10 +1,10 @@
-import Section from "@/components/Section";
+import ISection from "@/components/individuals/ISection";
 
 const IContact = () => {
   return (
-    <Section title="Contact" color="primary">
+    <ISection title="Contact" color="primary">
       <div></div>
-    </Section>
+    </ISection>
   );
 };
 

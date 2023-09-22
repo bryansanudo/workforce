@@ -1,10 +1,10 @@
-import Section from "@/components/Section";
+import CSection from "@/components/companies/CSection";
 
 const CAbout = () => {
   return (
-    <Section title="About Us" color="secondary">
+    <CSection title="About Us" color="secondary">
       <div></div>
-    </Section>
+    </CSection>
   );
 };
 

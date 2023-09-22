@@ -6,6 +6,7 @@ import IServices from "@/components/individuals/IServices";
 import IHistories from "@/components/individuals/IHistories";
 import IResources from "@/components/individuals/IResources";
 import IContact from "@/components/individuals/IContact";
+import IFooter from "@/components/individuals/IFooter";
 import { useEffect } from "react";
 
 const Individuals = ({ content, setContent }) => {
@@ -49,6 +50,7 @@ const Individuals = ({ content, setContent }) => {
         <Route path="/individuals/resources" element={<IResources />} />
         <Route path="/individuals/contact" element={<IContact />} />
       </Routes>
+      <IFooter />
     </>
   );
 };

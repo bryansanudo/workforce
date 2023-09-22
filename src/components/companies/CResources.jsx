@@ -1,10 +1,10 @@
-import Section from "@/components/Section";
+import CSection from "@/components/companies/CSection";
 
 const CResources = () => {
   return (
-    <Section title="Resources" color="secondary">
+    <CSection title="Resources" color="secondary">
       <div></div>
-    </Section>
+    </CSection>
   );
 };
 
