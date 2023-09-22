@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const CContact = () => {
-  return <div>CContact</div>;
+  return (
+    <Section title="Contact" color="secondary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default CContact;

@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const IHome = () => {
-  return <div className="pt-60">IHome</div>;
+  return (
+    <Section title="Home" color="primary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default IHome;

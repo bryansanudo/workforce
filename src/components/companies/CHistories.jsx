@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const CHistories = () => {
-  return <div>CHistories</div>;
+  return (
+    <Section title="Success Histories" color="secondary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default CHistories;

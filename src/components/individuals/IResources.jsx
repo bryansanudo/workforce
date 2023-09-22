@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const IResources = () => {
-  return <div>IResources</div>;
+  return (
+    <Section title="Resources" color="primary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default IResources;

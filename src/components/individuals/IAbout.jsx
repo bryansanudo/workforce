@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const IAbout = () => {
-  return <div>IAbout</div>;
+  return (
+    <Section title="About Us" color="primary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default IAbout;

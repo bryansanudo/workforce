@@ -23,9 +23,19 @@ const Companies = ({ content, setContent }) => {
 
   return (
     <>
-      <div className="flex items-center justify-between mx-20">
-        <button onClick={btnIndividuals}>If you are Individual</button>
-        <button onClick={btnCompanies}>If you are Companie</button>
+      <div className="flex items-center justify-center gap-4 my-2 mx-20">
+        <button
+          className="btn btn-outline  btn-primary"
+          onClick={btnIndividuals}
+        >
+          If you are Individual
+        </button>
+        <button
+          className="btn btn-outline  btn-secondary"
+          onClick={btnCompanies}
+        >
+          If you are Companie
+        </button>
       </div>
       <CNavbar />
       <Routes>

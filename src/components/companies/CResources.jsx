@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const CResources = () => {
-  return <div>CResources</div>;
+  return (
+    <Section title="Resources" color="secondary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default CResources;

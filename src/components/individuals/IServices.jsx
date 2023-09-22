@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const IServices = () => {
-  return <div>IServices</div>;
+  return (
+    <Section title="Services" color="primary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default IServices;

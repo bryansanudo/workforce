@@ -41,13 +41,13 @@ const CNavbar = ({ darkMode, setDarkMode }) => {
 
   return (
     <>
-      <div className="fixed w-full h-16 bg-red-500 text-white z-20  ">
+      <div className="fixed w-full h-16 bg-secondary text-white z-20  ">
         <div className="flex justify-between  md:gap-5 items-center max-w-screen-xl mx-auto px-8 h-full">
           <div className="hidden lg:flex items-center">
             <ul className="flex ">
               {links.map(({ id, link, name }) => (
                 <Link key={id} to={link}>
-                  <li className="p-4 uppercase duration-300 hover:text-[#94171A] hover:scale-110 cursor-pointer">
+                  <li className="p-4 uppercase duration-300 hover:text-white font-bold hover:scale-110 cursor-pointer">
                     {name}
                   </li>
                 </Link>
@@ -62,11 +62,11 @@ const CNavbar = ({ darkMode, setDarkMode }) => {
             {isMenuShown ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
 
-          <div className="flex items-center flex-row justify-center gap-2 ">
+          <div className="flex items-center flex-row justify-center bg-white rounded-lg p-1  ">
             <img
               src={logo}
               alt=""
-              className=" object-cover h-12 duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:scale-105"
+              className=" object-cover h-10 duration-300 shadow-xl cursor-pointer shadow-thSecondary hover:scale-105"
             />
           </div>
         </div>
@@ -74,9 +74,7 @@ const CNavbar = ({ darkMode, setDarkMode }) => {
 
       <div
         className={`fixed w-full  text-white z-10 left-0 h-fit py-12 lg:hidden flex justify-center text-center text-2xl duration-500 ${
-          isMenuShown
-            ? "top-16 rounded-b-2xl bg-gray-900 opacity-95"
-            : "top-[-100%]"
+          isMenuShown ? "top-16 rounded-b-2xl bg-secondary" : "top-[-100%]"
         }`}
       >
         <ul>

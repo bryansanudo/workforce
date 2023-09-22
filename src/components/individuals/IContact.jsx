@@ -1,7 +1,11 @@
-import React from "react";
+import Section from "@/components/Section";
 
 const IContact = () => {
-  return <div>IContact</div>;
+  return (
+    <Section title="Contact" color="primary">
+      <div></div>
+    </Section>
+  );
 };
 
 export default IContact;
