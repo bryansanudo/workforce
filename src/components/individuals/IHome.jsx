@@ -1,13 +1,17 @@
 import ISection from "@/components/individuals/ISection";
 import JamesBg from "@/assets/James-bg.jpg";
+import homeImg from "@/assets/home1.jpg";
 
 const IHome = () => {
   return (
     <ISection title="Home" color="primary">
       <div className="flex items-center justify-center flex-col gap-10">
         <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
-          <div className="md:w-1/2 ">
-            <img src={JamesBg} className="rounded-2xl" />
+          <div className="md:w-1/2 flex items-center justify-center ">
+            <img
+              src={JamesBg}
+              className="rounded-3xl w-[500px] object-contain"
+            />
           </div>
           <div className="md:w-1/2 max-w-[500px]">
             <div className="text-center mb-10">
@@ -24,21 +28,44 @@ const IHome = () => {
               unskilled workers with immigrant employees willing to apply for a
               US Green Card through the EB-3 Visa program.
             </p>
-            <button>YES! TEACH ME HOW</button>
+            <button className="btn btn-outline btn-primary mt-4">
+              YES! TEACH ME HOW
+            </button>
           </div>
         </div>
 
-        <div>
-          Contact Us Want to Know More? If you find yourself in a situation
-          where you are struggling to find a significant number of qualified,
-          accessible, and highly motivated U.S. employees to fill various
-          entry-level positions, or if you are facing challenges with relentless
-          turnover and overwhelming HR responsibilities and charges, then we
-          have the perfect solution for you. ​ Introducing the EB-3 Visa
-          Program, a long-term staffing solution specifically designed for U.S.
-          employers like yourself. This employment-based Green Card option is
-          tailored to address your staffing needs and provide the qualified
-          workforce you require.
+        <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
+          <div className="md:w-1/2 flex items-center justify-center">
+            <img
+              src={homeImg}
+              className="rounded-3xl w-[500px] object-contain"
+            />
+          </div>
+
+          <div className="md:w-1/2 max-w-[500px] ">
+            <div className="text-center mb-10">
+              <p className="text-3xl text-gray-600">Contact Us</p>
+              <p className="text-5xl font-bold ">Want to Know More?</p>
+              <span className="border-b-8 border-black"></span>
+            </div>
+            <p className="text-left mb-4 ">
+              If you find yourself in a situation where you are struggling to
+              find a significant number of qualified, accessible, and highly
+              motivated U.S. employees to fill various entry-level positions, or
+              if you are facing challenges with relentless turnover and
+              overwhelming HR responsibilities and charges, then we have the
+              perfect solution for you.
+            </p>
+            <p className="text-left">
+              Introducing the EB-3 Visa Program, a long-term staffing solution
+              specifically designed for U.S. employers like yourself. This
+              employment-based Green Card option is tailored to address your
+              staffing needs and provide the qualified workforce you require.
+            </p>
+            <button className="btn btn-outline btn-primary mt-4">
+              YES! TEACH ME HOW
+            </button>
+          </div>
         </div>
 
         <div className="flex items-center justify-center">
