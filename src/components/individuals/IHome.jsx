@@ -2,6 +2,8 @@ import ISection from "@/components/individuals/ISection";
 import JamesBg from "@/assets/James-bg.jpg";
 import homeImg from "@/assets/home1.jpg";
 import IHeroHome from "@/components/individuals/hero/IHeroHome";
+import { AiOutlineMail } from "react-icons/ai";
+import { BiPhoneCall } from "react-icons/bi";
 
 const IHome = () => {
   return (
@@ -37,6 +39,24 @@ const IHome = () => {
             </div>
           </div>
 
+          <div className="flex items-center justify-center gap-6 md:gap-40 p-6 flex-col md:flex-row bg-gray-100 w-full ">
+            <h1 className="text-4xl font-bold">Get Committed Workers!</h1>
+            <div className="flex flex-col items-center justify-center gap-4 text-xl font-bold">
+              <div className="bg-white p-3 rounded-full ">
+                <BiPhoneCall className="text-4xl text-primary" />
+              </div>
+              <p>Call Us</p>
+              <p>305 564-1311</p>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-4 font-bold text-xl">
+              <div className="bg-white p-3 rounded-full">
+                <AiOutlineMail className="text-primary text-4xl" />
+              </div>
+              <p>Email</p>
+              <p>support@eb3wfs.com</p>
+            </div>
+          </div>
+
           <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
             <div className="md:w-1/2 flex items-center justify-center">
               <img
@@ -45,7 +65,7 @@ const IHome = () => {
               />
             </div>
 
-            <div className="md:w-1/2 max-w-[500px] ">
+            <div className="md:w-1/2 max-w-[500px]  ">
               <div className="text-center mb-10">
                 <p className="text-3xl text-gray-600">Contact Us</p>
                 <p className="text-5xl font-bold ">Want to Know More?</p>

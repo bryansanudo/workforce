@@ -8,7 +8,7 @@ const ISection = ({ title, subtitle, children, name }) => {
       </h1>
       <section
         name={name}
-        className="min-h-fit flex flex-col justify-start items-center  px-5 text-center"
+        className="min-h-fit flex flex-col justify-start items-center  text-center"
       >
         <div
           className={`font-bold text-4xl my-8 text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl uppercase`}
