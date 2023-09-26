@@ -11,6 +11,7 @@ const IHome = () => {
       <IHeroHome />
       <ISection title="Home" color="primary">
         <div className="flex items-center justify-center flex-col gap-10">
+          {/* James */}
           <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
             <div className="md:w-1/2 flex items-center justify-center ">
               <img
@@ -20,8 +21,12 @@ const IHome = () => {
             </div>
             <div className="md:w-1/2 max-w-[500px]">
               <div className="text-center mb-10">
-                <p className="text-3xl text-gray-600">Meet The Founder</p>
-                <p className="text-5xl font-bold ">James Baker, CPA</p>
+                <p className="md:text-3xl text-2xl text-gray-400 font-bold">
+                  Meet The Founder
+                </p>
+                <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl  ">
+                  James Baker, CPA
+                </p>
                 <span className="border-b-8 border-black"></span>
               </div>
               <p className="text-left ">
@@ -33,12 +38,13 @@ const IHome = () => {
                 unskilled workers with immigrant employees willing to apply for
                 a US Green Card through the EB-3 Visa program.
               </p>
-              <button className="btn btn-outline btn-primary mt-4">
+              <button className="btn btn-outline btn-primary mt-4 animate-pulse">
                 YES! TEACH ME HOW
               </button>
             </div>
           </div>
 
+          {/* Divider committed workers */}
           <div className="flex items-center justify-center gap-6 md:gap-40 p-6 flex-col md:flex-row bg-gray-100 w-full ">
             <h1 className="text-4xl font-bold">Get Committed Workers!</h1>
             <div className="flex flex-col items-center justify-center gap-4 text-xl font-bold">
@@ -57,6 +63,7 @@ const IHome = () => {
             </div>
           </div>
 
+          {/* Want to know more */}
           <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
             <div className="md:w-1/2 flex items-center justify-center">
               <img
@@ -67,8 +74,12 @@ const IHome = () => {
 
             <div className="md:w-1/2 max-w-[500px]  ">
               <div className="text-center mb-10">
-                <p className="text-3xl text-gray-600">Contact Us</p>
-                <p className="text-5xl font-bold ">Want to Know More?</p>
+                <p className="md:text-3xl text-2xl text-gray-400 font-bold">
+                  Contact Us
+                </p>
+                <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl ">
+                  Want to Know More?
+                </p>
                 <span className="border-b-8 border-black"></span>
               </div>
               <p className="text-left mb-4 ">
@@ -88,6 +99,17 @@ const IHome = () => {
               <button className="btn btn-outline btn-primary mt-4">
                 YES! TEACH ME HOW
               </button>
+            </div>
+          </div>
+
+          {/* Divider blue and red */}
+          <div className="w-full flex flex-col md:flex-row text-white font-bold md:text-3xl text-xl ">
+            <div className="bg-secondary w-full py-8 flex items-center justify-center ">
+              <p className="">GET IN TOUCH TODAY!</p>
+            </div>
+            <div className="bg-primary w-full py-8">
+              <p className="">305564-1311</p>
+              <p className="text-sm font-normal">AVAILABLE 24/7</p>
             </div>
           </div>
 
