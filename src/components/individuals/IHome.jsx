@@ -5,6 +5,9 @@ import IHeroHome from "@/components/individuals/hero/IHeroHome";
 import { AiOutlineMail } from "react-icons/ai";
 import { BiPhoneCall } from "react-icons/bi";
 import ITestimonials from "@/components/individuals/ITestimonials";
+import { RxGear } from "react-icons/rx";
+import IFormContact from "@/components/individuals/IFormContact";
+import contactImg from "@/assets/contact2.jpg";
 
 const IHome = () => {
   return (
@@ -166,6 +169,38 @@ const IHome = () => {
           </div>
 
           <ITestimonials />
+          {/* Struggling to Find Commited Workers? */}
+          <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
+            <div className="md:w-1/2 flex items-center justify-center ">
+              <img
+                src={contactImg}
+                className="rounded-3xl w-[500px] object-contain"
+              />
+            </div>
+            <div className="md:w-1/2 max-w-[500px]">
+              <div className="flex items-center justify-center flex-col ">
+                {/* <div className="bg-gray-200 rounded-full p-5">
+                  <RxGear className="text-[40px]" />
+                </div> */}
+                <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl  ">
+                  Struggling to Find Commited Workers?
+                </p>
+                <span className="border-b-8 border-black"></span>
+              </div>
+              <p className="text-left ">
+                Discover the solution to your staffing needs with our company!
+                Say goodbye to the hassle of unreliable workers and hello to a
+                team of dedicated and committed professionals. Our EB3 visa
+                workers are handpicked to ensure top-notch performance and
+                complete commitment to your projects. Trust us to provide the
+                workforce you deserve."
+              </p>
+              <button className="btn btn-outline btn-primary mt-4 animate-pulse">
+                YES! TEACH ME HOW
+              </button>
+            </div>
+          </div>
+          <IFormContact />
         </div>
       </ISection>
     </>
