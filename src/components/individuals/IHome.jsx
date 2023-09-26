@@ -4,6 +4,7 @@ import homeImg from "@/assets/home1.jpg";
 import IHeroHome from "@/components/individuals/hero/IHeroHome";
 import { AiOutlineMail } from "react-icons/ai";
 import { BiPhoneCall } from "react-icons/bi";
+import ITestimonials from "@/components/individuals/ITestimonials";
 
 const IHome = () => {
   return (
@@ -102,6 +103,37 @@ const IHome = () => {
             </div>
           </div>
 
+          {/* EB-3 VISA */}
+
+          <div className="w-full flex flex-col items-center justify-center md:mt-20 mt-10">
+            <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl">
+              EB-3 Visa
+            </p>
+            <div className="flex items-center justify-center mt-10 flex-col md:flex-row ">
+              <div className="flex flex-col justify-center items-center gap-4 max-w-[600px]">
+                <p className="text-4xl font-bold">Process Length</p>
+                <p className="text-xl font-bold">Around 18 months</p>
+                <p className="">
+                  The length of the processing times for the EB3 program varies
+                  and depends on the location (country of origin) and status of
+                  the applicant (Consular Process vs. Adjustment of Status) and
+                  can also depend on the type of industry the applicant is
+                  sought for.
+                </p>
+              </div>
+              <div className="flex flex-col justify-center items-center  gap-4 max-w-[600px]">
+                <p className="text-4xl font-bold">Investment</p>
+                <p className="text-xl font-bold">$400-$1200</p>
+                <p className="">
+                  In order to proceed with the Labor Certificate, compliance
+                  with regulations necessitates the advertisement of the
+                  position to U.S. Workers. This process labor certification
+                  process, independent of the quantity of employees required.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Divider blue and red */}
           <div className="w-full flex flex-col md:flex-row text-white font-bold md:text-3xl text-xl ">
             <div className="bg-secondary w-full py-8 flex items-center justify-center ">
@@ -113,30 +145,13 @@ const IHome = () => {
             </div>
           </div>
 
-          <div className="flex items-center justify-center">
-            <div>
-              <h2>Process Length Around 18 months</h2>
-              <p>
-                The length of the processing times for the EB3 program varies
-                and depends on the location (country of origin) and status of
-                the applicant (Consular Process vs. Adjustment of Status) and
-                can also depend on the type of industry the applicant is sought
-                for.
-              </p>
-            </div>
-            <div>
-              <h2>Investment $400-$1200</h2>
-              <p>
-                n order to proceed with the Labor Certificate, compliance with
-                regulations necessitates the advertisement of the position to
-                U.S. Workers. This process labor certification process,
-                independent of the quantity of employees required.
-              </p>
-            </div>
-          </div>
-          <div>
-            <h2>EB-3 Workforce Solutions</h2>
-            <p>
+          {/* EB-3 Worfkforce Solutions */}
+
+          <div className="flex flex-col gap-12 items-center justify-center md:mt-20 mt-10 ">
+            <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl">
+              EB-3 Workfoce Solutions
+            </p>
+            <p className="max-w-[300px] md:max-w-[800px] font-bold">
               At EB3 Workforce Solutions, we understand the importance of
               finding reliable and dedicated employees. That's why we offer a
               unique solution to your staffing needs - EB3 visa workers. Our
@@ -149,16 +164,8 @@ const IHome = () => {
               Solutions.
             </p>
           </div>
-          <div>
-            <h2>Struggling to Find Commited Workers?</h2>
-            <p>
-              Discover the solution to your staffing needs with our company! Say
-              goodbye to the hassle of unreliable workers and hello to a team of
-              dedicated and committed professionals. Our EB3 visa workers are
-              handpicked to ensure top-notch performance and complete commitment
-              to your projects. Trust us to provide the workforce you deserve."
-            </p>
-          </div>
+
+          <ITestimonials />
         </div>
       </ISection>
     </>
