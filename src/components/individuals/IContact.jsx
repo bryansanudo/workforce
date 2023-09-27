@@ -3,6 +3,38 @@ import { useEffect } from "react";
 import IHeroContact from "@/components/individuals/hero/IHeroContact";
 
 const IContact = () => {
+  const steps = [
+    {
+      id: 1,
+      title: "Complete the Online Questionnaire",
+      subtitle:
+        "Fill out this form to confirm your eligibility for the EB3 Visa.",
+    },
+    {
+      id: 2,
+      title: "Upload Documents",
+      subtitle: "To complete your profile, upload your passport and US Visa.",
+    },
+    {
+      id: 3,
+      title: "Offering Selection",
+      subtitle:
+        "Choose the job and location from the current available positions offered by our partner employers.",
+    },
+    {
+      id: 4,
+      title: "Sign contract and pay Initial fee",
+      subtitle:
+        "A contract will be sent to you for signature and first payment to BDV will need to be made.",
+    },
+    {
+      id: 5,
+      title: "Check Progress through Portal",
+      subtitle:
+        "As the employer processes your applications, your BDV portal will be updated.",
+    },
+  ];
+
   useEffect(() => {
     // Coloca el código del script aquí
     var ifr = document.getElementById("JotFormIFrame-232636593677672");
@@ -75,6 +107,22 @@ const IContact = () => {
           }}
           scrolling="no"
         ></iframe>
+        {/* steps */}
+        <h2 className="font-bold text-3xl text-center p-2 text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl my-8">
+          Steps for the On-boarding Process
+        </h2>
+        <div className=" grid w-full grid-cols-1 gap-8 py-8 px-12 text-center sm:grid-cols-3">
+          {steps.map(({ id, title, subtitle }) => (
+            <div
+              key={id}
+              className={`rounded-lg p-6 shadow-md duration-500 hover:scale-105 shadow-primary`}
+            >
+              <p className="font-bold text-2xl">Step {id}</p>
+              <p className="font-bold my-2">{title}</p>
+              <p>{subtitle}</p>
+            </div>
+          ))}
+        </div>
       </ISection>
     </>
   );
