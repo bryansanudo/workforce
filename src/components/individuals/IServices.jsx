@@ -1,11 +1,7 @@
-import ISection from "@/components/individuals/ISection";
+import React, { useEffect } from "react";
 
 const IServices = () => {
-  return (
-    <ISection title="Services" color="primary">
-      <div></div>
-    </ISection>
-  );
+  return <div></div>;
 };
 
 export default IServices;

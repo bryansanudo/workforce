@@ -5,7 +5,7 @@ const ISection = ({ title, subtitle, children, name }) => {
     <div>
       <section
         name={name}
-        className="min-h-fit flex flex-col justify-start items-center my-24  text-center"
+        className="min-h-fit flex flex-col justify-start items-center my-16  text-center"
       >
         {children}
       </section>
