@@ -20,7 +20,7 @@ const IHome = () => {
             <div className="md:w-1/2 flex items-center justify-center ">
               <img
                 src={JamesBg}
-                className="rounded-3xl w-[500px] object-contain"
+                className="rounded-3xl w-[500px] object-contain  "
               />
             </div>
             <div className="md:w-1/2 max-w-[500px]">
@@ -118,10 +118,10 @@ const IHome = () => {
                 <p className="text-xl font-bold">Around 18 months</p>
                 <p className="">
                   The length of the processing times for the EB3 program varies
-                  and depends on the location (country of origin) and status of
-                  the applicant (Consular Process vs. Adjustment of Status) and
-                  can also depend on the type of industry the applicant is
-                  sought for.
+                  and depends on the location (Longstanding Successcountry of
+                  origin) and status of the applicant (Consular Process vs.
+                  Adjustment of Status) and can also depend on the type of
+                  industry the applicant is sought for.
                 </p>
               </div>
               <div className="flex flex-col justify-center items-center  gap-4 max-w-[600px]">
