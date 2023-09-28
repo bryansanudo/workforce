@@ -25,7 +25,7 @@ const IServices = () => {
           <div className="flex items-center justify-center flex-col gap-10">
             <IServicesCard />
 
-            {/* Process */}
+            {/*Timeline  Process */}
 
             <div className="flex items-center flex-col justify-center gap-10">
               <h2 className="font-bold text-3xl p-4 text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl ">
@@ -206,6 +206,103 @@ const IServices = () => {
                 />
               </div>
             </div>
+          </div>
+
+          {/* Why work with an agency */}
+          <div className="mt-20">
+            <h2 className="font-bold p-3 text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl">
+              Why work with an agency?
+            </h2>
+            <p className="text-lg text-gray-700 my-6">
+              There many benefits to working with an experienced agency:
+            </p>
+            <div className="flex gap-6 text-lg text-gray-700">
+              <div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">Proven track record</p>
+                </div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">Government connections</p>
+                </div>
+              </div>
+              <div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">Many qualified job options</p>
+                </div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">Employer sourcing</p>
+                </div>
+              </div>
+              <div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">case management services</p>
+                </div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">Community of applicants</p>
+                </div>
+              </div>
+              <div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">Attorney pairing</p>
+                </div>
+                <div className="flex items-center justify-start gap-4 mt-5">
+                  <div>
+                    <GoDotFill />
+                  </div>
+                  <p className="text-left">Relocation services</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Why does this process work? */}
+          <div className="flex flex-col gap-12 items-center justify-center  my-10 ">
+            <p className="font-bold p-2 text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl">
+              Why does this process work?
+            </p>
+            <p className="max-w-[300px] md:max-w-[800px] font-bold text-left">
+              Employers are having a harder time than ever before finding people
+              to fill their low-skilled jobs. Industries like cleaning, food
+              service, packing, and storage have been hit the hardest. Instead
+              of closing their doors, many businesses have tried to find
+              creative ways to find people to work for them. Many employers have
+              found it helpful to sponsor potential immigrants who are willing
+              to fill open positions with the help of an EB-3 visa for unskilled
+              workers.
+            </p>
+            <p className="max-w-[300px] md:max-w-[800px] font-bold text-left">
+              The Immigration Act of 1990 set up a program called
+              "Employment-Based Visas," which lets US businesses sponsor foreign
+              workers who want to work and are qualified to do so. There are
+              five types of EB visas. The first two require skilled work and a
+              lot of schooling, while part of the third type (the EB-3) is for
+              people who can do unskilled work for their future employers.
+            </p>
+            <p className="max-w-[300px] md:max-w-[800px] font-bold text-left">
+              The EB-3 "Other Worker" Visa process leads directly to permanent
+              residency in the U.S., and the terms are better than most of the
+              other ways to get there.
+            </p>
           </div>
           {/* Divider blue and red */}
           <div className="w-full flex flex-col md:flex-row text-white font-bold md:text-3xl text-xl ">

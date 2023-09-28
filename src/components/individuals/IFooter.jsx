@@ -4,7 +4,7 @@ import logoImg from "@/assets/logo.png";
 const IFooter = () => {
   return (
     <>
-      <footer className="mt-20 footer p-10 bg-base-200 text-base-content">
+      <footer className="footer p-10 bg-base-200 text-base-content">
         <aside>
           <img src={logoImg} alt="" />
           <p>
