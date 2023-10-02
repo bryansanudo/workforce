@@ -42,7 +42,7 @@
     notAvailableMsg: "We are after hours ", // message when its not an available day or once the available hours have passed
     almostAvailableMsg: "I will be available soon", // if today is an available day and before the time starts
     dialogNotAvailableMsg:
-      "We are off hours but you can schedule an appointment, please fill out the form below. If you qualify, you'll be able to schedule an appointment with us <br /> <a href='https://form.jotform.com/EB3_Recruiter/eligibility-eb3wfs' target='_blank'> 👉 Check My Eligibility 👈</a>", // message when its not an available day or once the available hours have passed
+      "We are currently outside of our regular business hours. Please utilize the form below to check your eligibility for our program, or feel free to email us at recruiter@eb3wfs.com with any questions you may have. <br /> <a href='https://form.jotform.com/EB3_Recruiter/eligibility-eb3wfs' target='_blank'> <button class='button'>Check My Eligibility</button></a>", // message when its not an available day or once the available hours have passed
     dialogAlmostAvailableMsg: "Estaré disponible pronto", // if today is an available day and before the time starts
     defaultMsg: "Hello, I have some questions about this page: {{url}}!", // default support msg
     debug: false, // some messages for debug purposes
