@@ -15,6 +15,9 @@ import IHeroServices from "@/components/individuals/hero/IHeroServices";
 import jobImg from "@/assets/job.jpg";
 import writingImg from "@/assets/writing.jpg";
 import { GoDotFill } from "react-icons/go";
+import { FaFileContract } from "react-icons/fa";
+import coWorkersImg from "@/assets/co-workers.jpg";
+import expertiseImg from "@/assets/expertise.jpg";
 
 const IServices = () => {
   return (
@@ -280,7 +283,7 @@ const IServices = () => {
             <p className="font-bold p-2 text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl">
               Why does this process work?
             </p>
-            <p className="max-w-[300px] md:max-w-[800px] font-bold text-left">
+            <p className="max-w-[300px] md:max-w-[800px]  text-left">
               Employers are having a harder time than ever before finding people
               to fill their low-skilled jobs. Industries like cleaning, food
               service, packing, and storage have been hit the hardest. Instead
@@ -290,7 +293,7 @@ const IServices = () => {
               to fill open positions with the help of an EB-3 visa for unskilled
               workers.
             </p>
-            <p className="max-w-[300px] md:max-w-[800px] font-bold text-left">
+            <p className="max-w-[300px] md:max-w-[800px]  text-left">
               The Immigration Act of 1990 set up a program called
               "Employment-Based Visas," which lets US businesses sponsor foreign
               workers who want to work and are qualified to do so. There are
@@ -298,11 +301,161 @@ const IServices = () => {
               lot of schooling, while part of the third type (the EB-3) is for
               people who can do unskilled work for their future employers.
             </p>
-            <p className="max-w-[300px] md:max-w-[800px] font-bold text-left">
+            <p className="max-w-[300px] md:max-w-[800px]  text-left">
               The EB-3 "Other Worker" Visa process leads directly to permanent
               residency in the U.S., and the terms are better than most of the
               other ways to get there.
             </p>
+          </div>
+          {/* Divider blue and red */}
+          <div className="w-full flex flex-col md:flex-row text-white font-bold md:text-3xl text-xl ">
+            <div className="bg-secondary w-full py-8 flex items-center justify-center ">
+              <p className="">GET IN TOUCH TODAY!</p>
+            </div>
+            <div className="bg-primary w-full py-8">
+              <p className="">305564-1311</p>
+              <p className="text-sm font-normal">AVAILABLE 24/7</p>
+            </div>
+          </div>
+          {/* ***OUR SERVICES *** */}
+
+          <div className="flex flex-col gap-12 items-center justify-center md:mt-20 mt-10 ">
+            <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl">
+              What We Do
+            </p>
+            <p className="max-w-[300px] md:max-w-[800px] ">
+              Experience a seamless process in securing EB3 visa workers with
+              our comprehensive support. From the very beginning, our team is
+              dedicated to finding and vetting potential candidates, and
+              preparing your company for sponsorship. And we don't stop there -
+              even after their Green Card is approved, we continue to provide
+              assistance throughout the transition to work and ongoing
+              employment. Partner with us and experience the peace of mind that
+              comes with having experts by your side every step of the way.
+            </p>
+          </div>
+
+          {/* 4 Emojis */}
+          {/* <div className="grid grid-cols-1 md:grid-cols-4 gap-10 my-20">
+            <div className="flex flex-col items-center justify-between p-10  gap-6">
+              <FaFileContract className="text-7xl" />
+              <p className="text-xl font-bold">
+                Recruit and vet employer sponsors
+              </p>
+            </div>
+            <div className="flex flex-col items-center justify-between p-10 gap-6">
+              <FaFileContract className="text-7xl" />
+              <p className="text-xl font-bold">Case management services</p>
+            </div>
+            <div className="flex flex-col items-center justify-between p-10 gap-6">
+              <FaFileContract className="text-7xl" />
+              <p className="text-xl font-bold">Attorney pairing</p>
+            </div>
+            <div className="flex flex-col items-center justify-between p-10 gap-6">
+              <FaFileContract className="text-7xl" />
+              <p className="text-xl font-bold">Relocation services</p>
+            </div>
+          </div> */}
+          <div className="stats stats-vertical lg:stats-horizontal shadow my-10">
+            <div className="stat">
+              <div className="stat-title">
+                <FaFileContract className="text-7xl mx-auto" />
+              </div>
+              <div className="mt-2">Recruit and vet employer sponsors</div>
+            </div>
+
+            <div className="stat">
+              <div className="stat-title">
+                <FaFileContract className="text-7xl mx-auto" />
+              </div>
+              <div className="mt-2">Case management services</div>
+            </div>
+
+            <div className="stat">
+              <div className="stat-title">
+                <FaFileContract className="text-7xl mx-auto" />
+              </div>
+              <div className="mt-2">Attorney pairing</div>
+            </div>
+
+            <div className="stat">
+              <div className="stat-title">
+                <FaFileContract className="text-7xl mx-auto" />
+              </div>
+              <div className="mt-2">Relocation services</div>
+            </div>
+          </div>
+          {/* How it works */}
+          <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
+            <div className="md:w-1/2 max-w-[500px]">
+              <div className="flex items-center justify-center flex-col text-left gap-6 ">
+                <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl  ">
+                  How It Works
+                </p>
+                <p>
+                  Join the growing list of satisfied clients who have benefited
+                  from our expertise in the EB3 Unskilled Visa process. We
+                  specialize in connecting employers with highly skilled foreign
+                  nationals, bridging the gap in the American workforce and
+                  helping to drive your business forward. Trust us to simplify
+                  the process and deliver the results you need to succeed
+                </p>
+                <div className="flex flex-col items-start">
+                  <p>
+                    1.Determine your eligibility and select an employer sponsor
+                  </p>
+                  <p>
+                    2.File and apply for the process with our partner attorneys
+                  </p>
+                  <p>3.Get your Green Card or work authorization</p>
+                  <p>4.Begin working for your employer</p>
+                  <p>5.Live in the U.S.A as an immigrant visa holder!</p>
+                  <button className="btn btn-primary my-6">
+                    YES! TEACH ME HOW
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="md:w-1/2 flex items-center justify-center ">
+              <img
+                src={coWorkersImg}
+                className="rounded-3xl w-[500px] object-contain mask mask-parallelogram"
+              />
+            </div>
+          </div>
+          {/* Our expertise */}
+          <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
+            <div className="md:w-1/2 flex items-center justify-center ">
+              <img
+                src={expertiseImg}
+                className="rounded-3xl w-[500px] object-contain "
+              />
+            </div>
+            <div className="md:w-1/2 max-w-[500px]">
+              <div className="flex items-center justify-center flex-col text-left gap-6 ">
+                <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl  ">
+                  Our Expertise
+                </p>
+                <p>
+                  Our goal is the same as our clients: for them to receive their
+                  U.S. Green Card through the EB-3 Unskilled Visa program.
+                </p>
+                <p className="font-bold text-3xl text-center text-transparent bg-clip-text  bg-gradient-to-r from-primary to-gray-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 md:text-5xl  ">
+                  Successful EB-3 Cases with EB-3 Workforce Solutions
+                </p>
+                <p>
+                  We have had several instances that were successful. In order
+                  to showcase the diverse experiences of someone going through
+                  this procedure, EB-3 Workforce Solutions has analyzed the best
+                  course of action for the different staffing needs that your
+                  business might have. Everybody who goes through this process
+                  will have a different timetable and procedure.
+                </p>
+                <button className="btn btn-primary my-6">
+                  YES! TEACH ME HOW
+                </button>
+              </div>
+            </div>
           </div>
           {/* Divider blue and red */}
           <div className="w-full flex flex-col md:flex-row text-white font-bold md:text-3xl text-xl ">
