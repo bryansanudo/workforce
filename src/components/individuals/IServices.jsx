@@ -398,7 +398,7 @@ const IServices = () => {
                   specialize in connecting employers with highly skilled foreign
                   nationals, bridging the gap in the American workforce and
                   helping to drive your business forward. Trust us to simplify
-                  the process and deliver the results you need to succeed
+                  the process and deliver the results you need to succeed.
                 </p>
                 <div className="flex flex-col items-start">
                   <p>
