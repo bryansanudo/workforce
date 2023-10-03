@@ -10,7 +10,7 @@ const INavbar = ({ darkMode, setDarkMode }) => {
     {
       id: 1,
       link: "/individuals/home",
-      name: "home",
+      name: "Home",
     },
     {
       id: 2,
@@ -47,7 +47,7 @@ const INavbar = ({ darkMode, setDarkMode }) => {
             <ul className="flex ">
               {links.map(({ id, link, name }) => (
                 <Link key={id} to={link}>
-                  <li className="p-4 uppercase duration-300 hover:text-white font-bold hover:scale-110 cursor-pointer">
+                  <li className="px-4 capitalize  duration-300 hover:text-white font-bold hover:scale-110 cursor-pointer">
                     {name}
                   </li>
                 </Link>
