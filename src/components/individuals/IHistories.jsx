@@ -1,6 +1,7 @@
 import ISection from "@/components/individuals/ISection";
 import EmployerTimeline from "@/components/individuals/successHistories/EmployerTimeline";
 import LifeTimeline from "@/components/individuals/successHistories/LifeTimeline";
+import ISliderTestimonials from "./ISliderTestimonials";
 
 const IHistories = () => {
   return (
@@ -76,6 +77,7 @@ const IHistories = () => {
       </div>
 
       {/* Testimonials */}
+      <ISliderTestimonials />
     </ISection>
   );
 };
