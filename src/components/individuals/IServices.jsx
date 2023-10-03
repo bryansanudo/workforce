@@ -17,7 +17,7 @@ import writingImg from "@/assets/writing.jpg";
 import { GoDotFill } from "react-icons/go";
 import { FaFileContract } from "react-icons/fa";
 import coWorkersImg from "@/assets/coworkers.jpg";
-import expertiseImg from "@/assets/expertise.jpg";
+import especialistImg from "@/assets/especialist.jpg";
 
 const IServices = () => {
   return (
@@ -427,7 +427,7 @@ const IServices = () => {
           <div className="flex items-center justify-center gap-6 md:gap-20 flex-col md:flex-row">
             <div className="md:w-1/2 flex items-center justify-center ">
               <img
-                src={expertiseImg}
+                src={especialistImg}
                 className="rounded-3xl w-[500px] object-contain "
               />
             </div>
