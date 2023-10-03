@@ -16,8 +16,6 @@ import jobImg from "@/assets/job.jpg";
 import writingImg from "@/assets/writing.jpg";
 import { GoDotFill } from "react-icons/go";
 import { FaFileContract } from "react-icons/fa";
-import coWorkersImg from "@/assets/co-workers.jpg";
-import expertiseImg from "@/assets/expertise.jpg";
 
 const IServices = () => {
   return (
